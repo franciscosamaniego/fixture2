@@ -1,0 +1,42 @@
+.group-table {
+  margin: 5px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.matches {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.match {
+  margin: 10px;
+}
+
+.groups {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  margin: 5px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.llave{
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px;
+}
